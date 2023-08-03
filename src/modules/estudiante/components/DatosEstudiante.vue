@@ -1,5 +1,5 @@
 <template>
-  <div class="datos">
+  <div class="container-form">
     <input v-model="cedula" type="text">
     <button @click="consultarEstudiante">Consultar</button>
     <label for="">Nombre</label>
@@ -34,4 +34,13 @@ export default {
 </script>
 
 <style>
+.container-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 5px;
+    margin: 10px;
+}
 </style>

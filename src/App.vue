@@ -1,9 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <EstudianteEliminar/>
+  <NavBar/>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
+
 import Estudiante from './modules/estudiante/pages/ConsultaEstudiante.vue'
 import EstudianteGuarda from './modules/estudiante/pages/GuardaEstudiante.vue'
 import EstudianteActualizar from './modules/estudiante/pages/ActualizarEstudiante.vue'
@@ -14,7 +15,7 @@ import EstudianteEliminar from './modules/estudiante/pages/EliminarEstudiante.vu
 export default {
   name: 'App',
   components: {
-    Estudiante,EstudianteGuarda,EstudianteActualizar,EstudianteEliminar
+    Estudiante,EstudianteGuarda,EstudianteActualizar,EstudianteEliminar,NavBar
   }
 }
 </script>
@@ -26,6 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
