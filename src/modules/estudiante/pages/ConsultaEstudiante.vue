@@ -10,7 +10,11 @@ export default {
   name: 'App',
   components: {
     DatosEstudiante
-  }
+  },
+   mounted(){
+    const {cedula}=this.$route.params
+    console.log(cedula)
+  },
 }
 </script>
 

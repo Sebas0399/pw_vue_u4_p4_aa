@@ -26,21 +26,8 @@ export const obtenerEstudianteAPI = async (cedula) => {
     console.log(data);
 }
 
-export const ingresarEstudianteAPI = (bodyEstudiante) => {
-
-}
-
-export const actualizarEstudianteAPI = (bodyEstudiante, id) => {
-
-}
-
-export const eliminarEstudianteAPI = (id) => {
-
-}
 const obtenerEstudianteAPIAxios = async (cedula) => {
-    console.log("Axios")
     const data = axios.get(url + "/" + cedula).then(r => r.data)
-    console.log(data)
     return data
 
 }
@@ -48,10 +35,6 @@ const ingresarEstudianteAPIAxios = (bodyEstudiante) => {
     axios.post(url, bodyEstudiante).then(r => r.data)
 }
 const actualizarEstudiante = (bodyEstudiante, id) => {
-    console.log(id)
-
-    console.log(bodyEstudiante)
-    console.log(url, +"/" + id)
     axios.put(url + "/" + id, bodyEstudiante).then(r => r.data)
 }
 const eliminarEstudiante = async (id) => {

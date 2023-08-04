@@ -13,7 +13,7 @@ const routes = [
 
   },
   {
-    path: '/consultar',
+    path: '/consultar/:cedula',
     name: 'consultar',
     component: ConsultarEstudiante
 
