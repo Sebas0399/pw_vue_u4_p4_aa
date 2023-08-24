@@ -1,5 +1,5 @@
 <template>
-  <NavBar/>
+  <ResponsiveB/>
 </template>
 
 <script>
@@ -9,13 +9,15 @@ import Estudiante from './modules/estudiante/pages/ConsultaEstudiante.vue'
 import EstudianteGuarda from './modules/estudiante/pages/GuardaEstudiante.vue'
 import EstudianteActualizar from './modules/estudiante/pages/ActualizarEstudiante.vue'
 import EstudianteEliminar from './modules/estudiante/pages/EliminarEstudiante.vue'
+import ResponsiveA from './components/Responsive1.vue'
+import ResponsiveB from './components/Responsive2.vue'
 
 
 
 export default {
   name: 'App',
   components: {
-    Estudiante,EstudianteGuarda,EstudianteActualizar,EstudianteEliminar,NavBar
+    ResponsiveB,EstudianteGuarda,EstudianteActualizar,EstudianteEliminar,NavBar
   }
 }
 </script>
