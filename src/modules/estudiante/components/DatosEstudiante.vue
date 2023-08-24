@@ -1,11 +1,11 @@
 <template>
-  <div class="container-form">
-    <input v-model="cedula" type="text">
-    <button @click="consultarEstudiante">Consultar</button>
-    <label for="">Nombre</label>
-    <input v-model="nombre" type="text">
-    <label for="">Apellido</label>
-    <input  v-model="apellido" type="text">
+  <div class="p-2 card position-absolute top-50 start-50 translate-middle rounded border border-primary border-4" >
+    <input v-model="cedula" type="text" class="form-control">
+    <button @click="consultarEstudiante" class="btn btn-primary mb-3">Consultar</button>
+    <label for="" class="form-label">Nombre</label>
+    <input v-model="nombre" type="text" class="form-control">
+    <label for="" class="form-label">Apellido</label>
+    <input  v-model="apellido" type="text" class="form-control">
   </div>
 </template>
 

@@ -8,7 +8,7 @@
     <input  v-model="apellido" type="text">
     <label for="">Provincia</label>
     <input  v-model="provincia" type="text">
-    <button @click="guardarEstudiante">Guardar</button>
+    <button class="btn btn-primary" @click="guardarEstudiante">Guardar</button>
 </div>
 </template>
 

@@ -1,6 +1,6 @@
 import axios from "axios"
 const url = "http://localhost:8080/API/v1.0/Matricula/estudiantes"
-const token="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbnRvbnkiLCJpYXQiOjE2OTI3NTA2NjQsImV4cCI6MTY5Mjc1MTY2NH0.ApCgIlJt1x6sZ9RYFxb78gzHZKmKdKTV3vdKSaVeR8D8S_cltT_LW597L87IPI6wy6tXU0BITtbY0Vm2XJIf4A"
+const token="eyJSb2wiOiJTYXBvIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiJBbnRvbnkiLCJpYXQiOjE2OTI4NDUyNDQsImV4cCI6MTY5Mjg0NjI0NH0.yhHZ-vRQS0jSIdaTNiJnFephdJNgZLcuz9v0JOlnpGnj9Tejo-9Gcr1yZk6PV_36dFI7OFxvB3k6QBSE-niISw"
 
 export const obtenerEstudianteFachada = async (cedula) => {
 
